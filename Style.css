@@ -1,0 +1,156 @@
+
+ :root{
+    --primario: #e5e5e5;
+     --secundario: #ffffff;
+    --texto1: #0a3871;
+     --texto2: #343440;
+    --fuentePrincipal:'Inter', sans-serif;
+ }
+
+body{
+margin: 0;
+padding: 0;
+background-color: var(--primario);
+font-family: var(--fuentePrincipal);
+}
+
+
+.conteiner{
+    background-color: var(--primario);
+    margin: auto;
+     width: 960px;
+    height: 650px;
+     padding: 5px;
+     border: 3px solid gray;
+     border-radius: 2rem;
+}
+
+
+.brand{
+    width: 100%;
+    float: left;
+}
+
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+.right{
+     float: right;
+     width: 30%;
+    height: auto;
+    border-radius: 20px;
+     background: var(--secundario);
+     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        
+}
+
+#img-derecha{
+    margin-left: 4%;
+    margin-top: 15%;
+    width: 90%;
+
+}
+
+
+.left-buttom{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.logo-img{
+    margin-top: 2%;
+    margin-left: 4%;
+    float: inherit;
+}
+
+.titulo{
+    float: inherit;
+    margin-left: 20%;
+}
+
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: var(--primario);
+}
+.text-input::placeholder{
+    color: var(--texto1);
+}
+
+
+#texto{
+    text-align: center;
+    font-size: 28px;
+
+}
+
+#texto2{
+    background-color: var(--secundario);
+    float: left;
+    margin: left;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+#btn-encriptar{
+    color: white;
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    background: #0A3871;
+    border-radius: 24px;
+    margin-left: 14% ;
+
+    }
+
+#btn-desencriptar{
+padding: 24px;
+width: 30%;
+height: 60%;
+background: #D8DFE8;
+border: 1px solid #0A3871;
+border-radius: 24px;
+margin-left: 10%;
+}
+
+#copiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+
+}
+
+.adv{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-top: 5%;
+    font-style:oblique;
+}
